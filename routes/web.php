@@ -32,7 +32,6 @@ Route::group(['prefix' => 'contact', 'middleware' => 'auth'], function(){
     Route::post('destroy/{id}', 'ContactFormController@destroy')->name('contact.destroy');
 });
 
-//12345qqq
 
 //contact/indexのurlでContactFormControllerの中のindexメソッドを実行する
 
