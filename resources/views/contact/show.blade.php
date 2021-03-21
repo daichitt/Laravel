@@ -20,7 +20,6 @@
                     <div class="alert alert-success" role="alert">
                         <strong>{{ $contact->your_name}}</strong>
                     </div>
-
                     <!-- 氏名 : {{ $contact->your_name}} -->
                     <p>件名</p>
                     <div class="alert alert-success" role="alert">

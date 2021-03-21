@@ -15,6 +15,8 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <br>
+                    <a href="{{ url('/contact/index') }}" class="btn btn-primary">Contact</a>
                 </div>
             </div>
         </div>

@@ -9,17 +9,14 @@ class CheckFormData
         if($data->gender === 0){
             $gender = '男性';
         }
-
         if($data->gender === 1){
             $gender = '女性';
         }
-
         return $gender;
     }
 
     public static function checkAge($data){
         
-
         if($data->age === 1){
             $age = '～19歳';
         }

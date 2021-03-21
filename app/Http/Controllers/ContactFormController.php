@@ -49,7 +49,7 @@ class ContactFormController extends Controller
         };
 
         $query->select('id', 'your_name','title', 'created_at');
-        $query->orderByRaw('created_at', 'desc');
+        $query->orderBy('id', 'desc');
         $contacts = $query->paginate(20);
 
 
